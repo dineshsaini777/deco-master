@@ -1,0 +1,214 @@
+:root {
+    /* color */
+    --bg-green: #D2DA60;
+    --over: #9003E5;
+    --Splashclr: #8A3E74;
+    --bring: #000;
+    --meclr: #BD1BC3;
+    --card: #EEE;
+    --color1: #010080;
+    --color: #fff;
+
+    /* font-size */
+    --fs-18: 18px;
+    --fs-36: 36px;
+    --fs-48: 48px;
+    --fs-20: 20px;
+    --fs-24: 24px;
+    --fs-64: 64px
+}
+
+.bg-blue {
+    background-color: var(--color1);
+}
+
+.free {
+    font-size: var(--fs-24);
+    color: #000;
+}
+
+.free1 {
+    font-size: var(--fs-24);
+    color: #000;
+}
+
+.no {
+    font-size: var(--fs-64);
+
+}
+
+.read1 {
+    font-size: var(--fs-18);
+    color: var(--color);
+}
+
+.read2 {
+    font-size: var(--fs-18);
+    color: var(--color);
+}
+
+.read3 {
+    font-size: var(--fs-18);
+    color: var(--color);
+}
+
+.read4 {
+    font-size: var(--fs-18);
+    color: var(--color);
+}
+
+.read {
+    font-size: var(--fs-24);
+    color: var(--color);
+}
+
+.projects {
+    font-size: var(--fs-48);
+    color: var(--bring);
+}
+
+.subbox {
+    background-color: var(--color1);
+}
+
+.sub {
+    font-size: var(--fs-20);
+    color: var(--color);
+}
+
+.lorem2 {
+    font-size: var(--fs-18);
+    color: var(--card);
+}
+
+.mail {
+    font-size: var(--fs-24);
+    color: var(--bring);
+}
+
+.no {
+    color: var(--color1) !important;
+}
+
+.lorem {
+    font-size: var(--fs-18);
+    color: var(--bring);
+}
+
+.box {
+    background-color: var(--card);
+}
+
+.max {
+    font-size: var(--fs-18);
+    color: var(--bring);
+}
+
+.card1 {
+    border-radius: 48px;
+    margin-left: auto;
+    background-color: #EEE !important;
+}
+
+.team {
+    font-size: var(--fs-48);
+}
+
+.card2 {
+    border-radius: 48px;
+
+    background-color: #EEE !important;
+}
+
+.no2 {
+    font-size: var(--fs-64);
+    color: var(--color1) !important;
+
+}
+
+.our {
+    font-size: var(--fs-48);
+
+}
+
+.our {
+    color: #000;
+}
+
+.pd {
+    color: #000;
+}
+
+.pd {
+
+    font-size: var(--fs-18);
+}
+
+.para {
+    color: #000;
+    font-size: var(--fs-18);
+}
+
+.wel {
+    font-size: var(--fs-48);
+}
+
+.why {
+    font-size: var(--fs-48);
+}
+
+.gallery {
+    font-family: var(--fs-48);
+}
+
+.me {
+    font-size: var(--fs-20);
+}
+
+.meclr {
+    background: var(--linear, linear-gradient(90deg, #9104E5 0%, #F93B96 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.li {
+    font-size: var(--fs-18);
+    color: var(--color);
+}
+
+.link1 {
+    font-size: var(--fs-18);
+    color: var(--color);
+}
+
+.right {
+    font-size: var(--fs-18);
+    color: var(--color);
+}
+
+.bring {
+    color: #000;
+}
+
+.bg-green {
+    background-color: #D2DA60;
+}
+
+.Splash {
+    font-size: var(--fs-18);
+}
+
+.Splashclr {
+    color: #8A3E74;
+}
+
+.over {
+    color: #9003E5;
+}
+
+
+
+.nav_font {
+    font-size: var(--fs-18);
+}
