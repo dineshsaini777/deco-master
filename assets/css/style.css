@@ -7,6 +7,7 @@
     list-style: none;
     text-decoration: none !important;
     box-sizing: border-box;
+    /* border: 2px solid red; */
 }
 
 p {
@@ -225,16 +226,16 @@ footer ul li a::after {
 
 .yellow {
     position: absolute;
-    top: 13%;
+    top: 8%;
     z-index: -1;
     left: 13%;
 }
 
 .pink {
     position: absolute;
-    top: 47%;
+    top: 44%;
 
-    right: 8%;
+    right: 20%;
 }
 
 .bonod1 {
@@ -263,7 +264,7 @@ footer ul li a::after {
 
 .paint {
     position: absolute;
-    top: 74%;
+    top: 71%;
     left: 4%;
 }
 
@@ -339,7 +340,7 @@ footer ul li a::after {
 
 .butn {
     display: inline-flex;
-    padding: 11px 34px;
+    /* padding: 11px 34px; */
     align-items: flex-start;
     gap: 10px;
     border-radius: 4px;
@@ -485,6 +486,12 @@ footer ul li a::after {
     max-width: 228px;
 }
 
+.text {
+    max-width: 232px;
+    margin-top: 15px;
+    /* width: 471px; */
+}
+
 .team {
     text-align: center;
     font-weight: 700;
@@ -523,9 +530,10 @@ footer ul li a::after {
     bottom: -4%;
 }
 
+/* 
 .pl-136 {
     margin-left: auto;
-}
+} */
 
 .pd {
 
@@ -679,7 +687,7 @@ ul {
 
 .text {
     margin-top: 15px;
-    width: 471px;
+    max-width: 364px;
 }
 
 .plash {
@@ -693,6 +701,11 @@ ul {
     padding-top: 80px;
 }
 
+.textnew {
+    max-width: 368px;
+    margin-right: 0;
+}
+
 .mt-24 {
     margin-top: 24px;
 }
@@ -704,6 +717,8 @@ button {
 button:hover::after {
     width: 100%;
 }
+
+
 
 
 
@@ -932,10 +947,29 @@ input[ type="checkbox"]:checked+.ul {
 
 @media (min-width:320px) {
     .pay {
-        margin-left: 15px;
+        margin-left: 17px;
         width: 254px;
         font-weight: 700 !important;
         font-size: 24px !important;
+    }
+
+    .butn {
+        display: inline-flex;
+
+        align-items: flex-start;
+        gap: 10px;
+        border-radius: 4px;
+        background: #010080;
+    }
+
+    .pt223 {
+        margin-top: 57px;
+    }
+
+    .textnew {
+        margin-left: 165px;
+        max-width: 368px;
+        margin-right: 0px;
     }
 
     .line222 {
@@ -972,10 +1006,10 @@ input[ type="checkbox"]:checked+.ul {
     }
 
     .plash1 {
-        max-width: 100%;
+        max-width: 68%;
         border-radius: 48px;
         position: absolute;
-        top: -87%;
+        top: -60%;
         right: 0%;
     }
 
@@ -983,9 +1017,11 @@ input[ type="checkbox"]:checked+.ul {
         margin-top: -9px;
     }
 
+
     .pl-136 {
-        margin-left: 157px;
+        /* margin-left: 157px; */
     }
+
 
     .para {
         max-width: 100%;
@@ -1091,7 +1127,7 @@ input[ type="checkbox"]:checked+.ul {
     }
 
     .ourpro1 {
-        margin-top: 20px;
+        margin-top: 2px;
     }
 
     .boxsize {
@@ -1109,7 +1145,8 @@ input[ type="checkbox"]:checked+.ul {
     .text {
         max-width: 232px;
         margin-top: 15px;
-        /* width: 471px; */
+        width: 471px;
+
     }
 }
 
@@ -1121,7 +1158,22 @@ input[ type="checkbox"]:checked+.ul {
         flex-shrink: 0;
     }
 
+    .pay {
+        min-width: 320px;
+        margin-left: 83px;
+        width: 254px;
+        font-weight: 700 !important;
+        font-size: 24px !important;
+    }
 
+    .butn {
+        display: inline-flex;
+        padding: 11px 34px;
+        align-items: flex-start;
+        gap: 10px;
+        border-radius: 4px;
+        background: #010080;
+    }
 
     .myposition-relative {
         /* position: relative !important; */
@@ -1141,10 +1193,6 @@ input[ type="checkbox"]:checked+.ul {
         font-weight: 400;
     }
 
-    .text {
-        margin-top: 15px;
-        width: 471px;
-    }
 
     .men4 {
         /* position: absolute; */
@@ -1174,12 +1222,14 @@ input[ type="checkbox"]:checked+.ul {
     }
 
     .text {
-        max-width: 232px;
+        max-width: 364px;
         margin-top: 15px;
         width: 471px;
     }
 
     .projects {
+        font-size: 48px;
+        margin-top: 71px;
         font-family: Poppins;
         font-weight: 500;
 
@@ -1194,6 +1244,7 @@ input[ type="checkbox"]:checked+.ul {
     }
 
     .ml135 {
+        margin-top: 55px;
         margin-left: 135px;
     }
 
@@ -1221,6 +1272,23 @@ input[ type="checkbox"]:checked+.ul {
     }
 }
 
+@media (min-width:992px) {
+    .position-b {
+        position: absolute;
+        left: 71%;
+        top: 33%;
+        z-index: 1;
+    }
+
+    .position-a {
+        position: absolute;
+        left: 22%;
+        top: 33%;
+        z-index: 1;
+    }
+
+}
+
 @media (max-width:576px) {
     .plash {
         margin-top: -320px;
@@ -1228,6 +1296,23 @@ input[ type="checkbox"]:checked+.ul {
 
     .clm-sm {
         flex-direction: column;
+    }
+
+    .w100 {
+        width: 100%;
+    }
+
+}
+
+@media (max-width:1700px) {
+    .position-b {
+        position: unset;
+
+    }
+
+    .position-a {
+        position: unset;
+
     }
 
 }

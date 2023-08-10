@@ -207,7 +207,21 @@
     color: #9003E5;
 }
 
+.fs18 {
+    font-size: var(--fs-18);
+}
 
+.fw500 {
+    font-weight: 500;
+}
+
+.fs24 {
+    font-size: var(--fs-24);
+}
+
+.fw700 {
+    font-weight: 700;
+}
 
 .nav_font {
     font-size: var(--fs-18);
